@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_save" 
+        android:title="@string/action_save" 
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_save" />
+    
+    <item 
+        android:id="@+id/action_share" 
+        android:title="@string/action_share" 
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_share" />
+    
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_exit"
+        android:icon="@drawable/ic_menu_close_clear_cancel"/>
+    
+
+</menu>

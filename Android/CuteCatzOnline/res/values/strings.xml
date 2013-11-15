@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cute Catz</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="catText">Have a break, have a kitty cat!</string>
+    <string name="loading">Loading new cat…</string>
+    
+
+</resources>
