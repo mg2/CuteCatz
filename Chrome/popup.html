@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cute Catz Extension's Popup</title>
+    <style>
+	  body {
+	  	min-width: 600px;
+		min-width: 600px;
+	  }
+
+      img {
+        margin: 5px;
+        max-width: 550px;
+        max-height: 550px;
+      }
+    </style>
+    <!--<script src="jquery-2.0.3.min.js"></script>
+	<script>
+		$(document).ready(function()  
+      		{  
+				//refreshImage();    
+		});
+		function refreshImage()
+  		{
+		$('#refresh').text('Finding next piccy...');
+		var image_url = 'http://thecatapi.com/api/images/get.php?api_key=MTAx&format=xml&cachebuster='+Math.random();
+		
+		$.get(image_url, function(d){  
+  
+        $(d).find('image').each(function(){  
+			$("#catimg").attr("src",$(d).find('url').text());
+		});  
+});  
+  }
+		
+	</script>-->
+	<script src="cat.js"></script>
+	
+  </head>
+  <body>
+  <!--<button id="refresh" onClick="catreload()" >Load new cat</button>
+  <br>-->
+  <center><img src='http://thecatapi.com/api/images/get?format=src' id="catimg"></center>
+  <div id="div1"></div>
+  </body>
+</html>
+
